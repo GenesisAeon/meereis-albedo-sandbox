@@ -1,0 +1,29 @@
+{
+  "title": "Meereis-Albedo-Sandbox — Arctic vs. Antarctic interactive sea-ice albedo feedback",
+  "description": "<p>Interactive Arctic vs. Antarctic sea-ice albedo feedback sandbox, using published constants from GenesisAeon's arctic-climate-utac (P127) and antarctic-ice-shelf-utac (P120): Duspayev et al. 2024 (sea-ice radiative effect), Zhang et al. 2025 (ice-albedo feedback factor gamma_IA = 0.41), and Riihelä et al. 2021 (the real Antarctic sign-flip, -0.06 to +0.26 W/m2). Year-by-year ice-extent curves are explicitly labelled as a schematic reconstruction calibrated to the published summary statistics, not satellite raw data. No UTAC/CREP/AFET bridge. Part of the <strong>GenesisAeon</strong> interactive-sandbox series.</p>",
+  "creators": [
+    {
+      "name": "Römer, Johann",
+      "affiliation": "Independent Researcher / MOR Research Collective"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "0.1.0",
+  "keywords": [
+    "GenesisAeon",
+    "sea ice",
+    "albedo",
+    "Arctic",
+    "Antarctic",
+    "ice-albedo feedback",
+    "interactive sandbox",
+    "open-science"
+  ],
+  "communities": [
+    {
+      "identifier": "genesisaeon"
+    }
+  ]
+}
