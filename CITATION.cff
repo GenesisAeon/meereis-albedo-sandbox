@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+title: meereis-albedo-sandbox
+message: If you use this sandbox, please cite it and the underlying papers.
+type: software
+authors:
+  - family-names: Römer
+    given-names: Johann
+repository-code: https://github.com/GenesisAeon/meereis-albedo-sandbox
+license: MIT
+abstract: >
+  Interactive Arctic vs Antarctic sea-ice albedo sandbox using published
+  constants from arctic-climate-utac (P127) and antarctic-ice-shelf-utac
+  (P120): Duspayev et al. 2024, Zhang et al. 2025, Riihelä et al. 2021.
+keywords:
+  - sea ice
+  - albedo
+  - Arctic
+  - Antarctic
+  - ice-albedo feedback
+references:
+  - type: article
+    title: Earth's Sea Ice Radiative Effect From 1980 to 2023
+    authors:
+      - family-names: Duspayev
+        given-names: A.
+      - family-names: Flanner
+        given-names: M.
+      - family-names: Riihelä
+        given-names: A.
+    year: 2024
+    journal: Geophysical Research Letters
+    doi: 10.1029/2024GL109608
+  - type: article
+    title: Quantifying the interplay of sea ice meltwater and ice-albedo feedbacks in the Arctic ice-ocean system
+    authors:
+      - family-names: Zhang
+        given-names: H.
+      - family-names: Storto
+        given-names: A.
+      - family-names: Bai
+        given-names: X.
+      - family-names: Yang
+        given-names: C.
+    year: 2025
+    journal: The Cryosphere
+    doi: 10.5194/tc-19-6807-2025
+  - type: article
+    title: Recent strengthening of snow and ice albedo feedback driven by Antarctic sea-ice loss
+    authors:
+      - family-names: Riihelä
+        given-names: A.
+      - family-names: Bright
+        given-names: R.M.
+      - family-names: Anttila
+        given-names: K.
+    year: 2021
+    journal: Nature Geoscience
+    doi: 10.1038/s41561-021-00841-x
