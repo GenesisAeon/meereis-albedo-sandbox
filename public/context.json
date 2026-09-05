@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "generated": "2026-09-05",
   "app": {
     "id": "meereis-albedo-sandbox",
@@ -28,6 +28,22 @@
     { "name": "ANTARCTIC_EXPANSION_FEEDBACK_W_M2_PER_DECADE", "value": -0.06, "unit": "W/m^2/decade", "uncertainty": 0.02, "source": "Riihelä et al. 2021, 1992-2015" },
     { "name": "POST_REVERSAL_COMBINED_W_M2", "value": 0.26, "unit": "W/m^2", "source": "Riihelä et al. 2021, 2016-2018 combined Arctic+Antarctic 3-year mean" }
   ],
+  "tipping": {
+    "kind": "sign_change",
+    "value": 2016,
+    "unit": "year",
+    "derived_from": "Riihelä et al. 2021, documented sign flip of the Antarctic sea-ice-albedo feedback",
+    "defined": true
+  },
+  "regen": {
+    "kind": "undefined",
+    "value": null,
+    "unit": null,
+    "derived_from": "No relaxation/recovery quantity is defined for a feedback-sign flip in the source literature -- left undefined rather than guessed.",
+    "defined": false
+  },
+  "comparable": false,
+  "formula_ref": "physics.ts sireFromIceRel(): SIRE scales ~iceRel^2 (piecewise-linear approximation), no shared ODE between hemispheres",
   "framework_overlay": { "used": false, "terms": [] },
   "disclaimer": "Zahlen sind aus arctic-climate-utac und antarctic-ice-shelf-utac kopiert, nicht erfunden. Die Jahresverlaufskurven sind schematisch an publizierte Eckwerte kalibriert, keine Satelliten-Rohdaten."
 }
