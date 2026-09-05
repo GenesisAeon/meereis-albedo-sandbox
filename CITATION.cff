@@ -7,6 +7,7 @@ authors:
     given-names: Johann
 repository-code: https://github.com/GenesisAeon/meereis-albedo-sandbox
 license: MIT
+version: "0.2.0"
 abstract: >
   Interactive Arctic vs Antarctic sea-ice albedo sandbox using published
   constants from arctic-climate-utac (P127) and antarctic-ice-shelf-utac

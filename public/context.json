@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "generated": "2026-09-05",
+  "app": {
+    "id": "meereis-albedo-sandbox",
+    "title": "Meereis-Albedo-Sandbox",
+    "kind": "mechanik",
+    "live_url": "https://meereis-albedo-sandbox.vercel.app",
+    "repo_url": "https://github.com/GenesisAeon/meereis-albedo-sandbox",
+    "llms_txt_url": "https://meereis-albedo-sandbox.vercel.app/llms.txt"
+  },
+  "source_package": {
+    "name": "arctic-climate-utac / antarctic-ice-shelf-utac",
+    "package_id": null,
+    "repo_url": "https://github.com/GenesisAeon/arctic-climate-utac",
+    "ported_note": "Summary statistics copied from both packages' constants.py. Year-by-year ice-extent curves are a schematic reconstruction calibrated to the published endpoint values, not raw satellite data."
+  },
+  "primary_sources": [
+    { "authors": "Duspayev, A., Flanner, M., Riihelä, A. et al.", "year": 2024, "title": "Earth's Sea Ice Radiative Effect From 1980 to 2023", "journal": "Geophysical Research Letters", "doi": "10.1029/2024GL109608" },
+    { "authors": "Zhang, H., Storto, A., Bai, X., Yang, C.", "year": 2025, "title": "Quantifying the interplay of sea ice meltwater and ice-albedo feedbacks in the Arctic ice-ocean system", "journal": "The Cryosphere", "doi": "10.5194/tc-19-6807-2025" },
+    { "authors": "Riihelä, A., Bright, R.M., Anttila, K.", "year": 2021, "title": "Recent strengthening of snow and ice albedo feedback driven by Antarctic sea-ice loss", "journal": "Nature Geoscience", "doi": "10.1038/s41561-021-00841-x" }
+  ],
+  "verified_quantities": [
+    { "name": "ARCTIC_SIRE_RANGE", "value": [-0.86, -0.64], "unit": "W/m^2", "source": "Duspayev et al. 2024" },
+    { "name": "ARCTIC_SIRE_WEAKENING_PCT", "value": 25, "unit": "percent since 1980", "source": "Duspayev et al. 2024" },
+    { "name": "ANTARCTIC_SIRE_RANGE", "value": [-0.98, -0.85], "unit": "W/m^2", "source": "Duspayev et al. 2024" },
+    { "name": "GAMMA_IA", "value": 0.41, "unit": null, "source": "Zhang et al. 2025; albedo feedback ~2x competing meltwater feedback" },
+    { "name": "ANTARCTIC_EXPANSION_FEEDBACK_W_M2_PER_DECADE", "value": -0.06, "unit": "W/m^2/decade", "uncertainty": 0.02, "source": "Riihelä et al. 2021, 1992-2015" },
+    { "name": "POST_REVERSAL_COMBINED_W_M2", "value": 0.26, "unit": "W/m^2", "source": "Riihelä et al. 2021, 2016-2018 combined Arctic+Antarctic 3-year mean" }
+  ],
+  "framework_overlay": { "used": false, "terms": [] },
+  "disclaimer": "Zahlen sind aus arctic-climate-utac und antarctic-ice-shelf-utac kopiert, nicht erfunden. Die Jahresverlaufskurven sind schematisch an publizierte Eckwerte kalibriert, keine Satelliten-Rohdaten."
+}

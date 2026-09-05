@@ -1,0 +1,18 @@
+# Meereis-Albedo-Sandbox
+
+> Vergleich zweier Polkappen mit gegensätzlichem Vorzeichen der Eis-Albedo-Rückkopplung. Arktis verliert seit 1980 laufend Kühlleistung; die Antarktis hat 2016 nachweislich das Vorzeichen gewechselt. Konstanten 1:1 aus arctic-climate-utac (P127) und antarctic-ice-shelf-utac (P120).
+
+Die Eis-Ausdehnungskurven sind eine explizit gekennzeichnete schematische Rekonstruktion, kalibriert auf die publizierten Eckwerte — keine Satelliten-Rohdaten.
+
+## Quellen
+- Duspayev et al. 2024, Geophysical Research Letters, DOI 10.1029/2024GL109608
+- Zhang et al. 2025, The Cryosphere, DOI 10.5194/tc-19-6807-2025
+- Riihelä et al. 2021, Nature Geoscience, DOI 10.1038/s41561-021-00841-x
+
+## Maschinenlesbar
+- [context.json](/context.json)
+- Schema: https://github.com/GenesisAeon/apps-hub/blob/main/docs/ai-context-schema.md
+
+## Ökosystem
+- Teil der GenesisAeon Apps-Hub-Reihe: https://github.com/GenesisAeon/apps-hub
+- Zugehörige Pakete im Klimakatalog: https://klimakatalog.vercel.app/p/arctic-climate-utac , https://klimakatalog.vercel.app/p/antarctic-ice-shelf-utac
