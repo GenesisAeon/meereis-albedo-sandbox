@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.1.0",
-  "generated": "2026-09-05",
+  "schema_version": "1.2.0",
+  "generated": "2026-09-06",
   "app": {
     "id": "meereis-albedo-sandbox",
     "title": "Meereis-Albedo-Sandbox",
@@ -43,6 +43,14 @@
     "derived_from": "No relaxation/recovery quantity is defined for a feedback-sign flip in the source literature -- left undefined rather than guessed.",
     "defined": false,
     "origin": "undefined"
+  },
+  "entropy_bg": {
+    "kind": "radiative_forcing",
+    "value": 0.26,
+    "unit": "W/m^2",
+    "derived_from": "POST_REVERSAL_COMBINED_W_M2, Riihelä et al. 2021, 2016-2018 combined Arctic+Antarctic 3-year mean sea-ice radiative effect",
+    "defined": true,
+    "origin": "literature"
   },
   "comparable": false,
   "formula_ref": "physics.ts sireFromIceRel(): SIRE scales ~iceRel^2 (piecewise-linear approximation), no shared ODE between hemispheres",
