@@ -33,14 +33,16 @@
     "value": 2016,
     "unit": "year",
     "derived_from": "Riihelä et al. 2021, documented sign flip of the Antarctic sea-ice-albedo feedback",
-    "defined": true
+    "defined": true,
+    "origin": "literature"
   },
   "regen": {
     "kind": "undefined",
     "value": null,
     "unit": null,
     "derived_from": "No relaxation/recovery quantity is defined for a feedback-sign flip in the source literature -- left undefined rather than guessed.",
-    "defined": false
+    "defined": false,
+    "origin": "undefined"
   },
   "comparable": false,
   "formula_ref": "physics.ts sireFromIceRel(): SIRE scales ~iceRel^2 (piecewise-linear approximation), no shared ODE between hemispheres",
